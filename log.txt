@@ -1,3 +1,12 @@
+git add .        （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）
+
+git commit  -m  "提交信息"  （注：“提交信息”里面换成你需要，如“first commit”）
+
+git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）
+
+
+
+
 git remote add origin git@github.com:c3625568/EM-Learning.git
 git push origin
 
@@ -10,10 +19,10 @@ $ git config --global user.email "yiyifu97@gmail.com"
 
 
 
-ssh-keygen -t rsa -C "xxxxxx@yy.com"  #������д�Լ���ʵ��Ч�������ַ
+ssh-keygen -t rsa -C "xxxxxx@yy.com"  #建议填写自己真实有效的邮箱地址
 
 
-�ϴ�
+上传
 $ git remote add origin https://github.com/YiyiF/upload_folders.git
 
 $ git push -u origin master
