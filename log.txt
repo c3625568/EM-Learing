@@ -1,0 +1,24 @@
+git remote add origin git@github.com:c3625568/EM-Learning.git
+git push origin
+
+git remote rm origin
+
+
+$ git config --global user.name "YiyiF"
+
+$ git config --global user.email "yiyifu97@gmail.com"
+
+
+
+ssh-keygen -t rsa -C "xxxxxx@yy.com"  #建议填写自己真实有效的邮箱地址
+
+
+上传
+$ git remote add origin https://github.com/YiyiF/upload_folders.git
+
+$ git push -u origin master
+
+
+$ git add -A
+
+$ git push origin master -f
