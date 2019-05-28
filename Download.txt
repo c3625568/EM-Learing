@@ -1,1 +1,6 @@
 git clone + html
+
+git add
+git commit -m "这里是注释"
+git remote add origin https://github.com/YiyiF/upload_folders.git
+git push -u origin master
